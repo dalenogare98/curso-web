@@ -41,6 +41,7 @@ export default class Calculator extends Component {
             } catch(e) {
                 values[0] = this.state.values[0]
             }
+            
             values[1] = 0
 
             this.setState({
